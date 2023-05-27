@@ -12,8 +12,8 @@ export default function MainRight({ url }) {
       <Container maxWidth="md">
         <Box sx={{ bgcolor: "#f5f5f5", height: "80vh" }}>
           <div style={{ padding: 64 }}>
-            <Typography>Video playback: Basketball</Typography>
-            <Link>{url} </Link>
+            <Typography variant="h5">Video PlayBack Section</Typography>
+            {url && <Link>Video URL: {url} </Link>}
           </div>
           <div
             style={{

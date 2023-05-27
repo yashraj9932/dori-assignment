@@ -11,7 +11,11 @@ export default function MediaCard({ video, setUrl, setVideoNumber, index }) {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia sx={{ height: 140 }} image={thumbnail} title="green iguana" />
-      <CardActions sx={{ padding: 2 }}>
+      <CardActions
+        sx={{
+          padding: 2,
+        }}
+      >
         <Typography
           variant="p"
           component="div"

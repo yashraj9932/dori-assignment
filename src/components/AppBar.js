@@ -15,15 +15,19 @@ export default function ButtonAppBar() {
           <div
             style={{ flexGrow: 1, display: "flex", justifyContent: "center" }}
           >
-            <Typography color="#1565c0">Dori UX Interview:</Typography>
-            <Typography>{name}</Typography>
+            <Typography variant="h6" color="#1565c0">
+              Dori UX Interview:&nbsp;
+            </Typography>
+            <Typography variant="h6">{name}</Typography>
           </div>
 
           <div
             style={{ flexGrow: 1, display: "flex", justifyContent: "center" }}
           >
-            <Typography color="#1565c0">Today's Date: </Typography>
-            <Typography>{date}</Typography>
+            <Typography variant="h6" color="#1565c0">
+              Today's Date:&nbsp;
+            </Typography>
+            <Typography variant="h6">{date}</Typography>
           </div>
         </Toolbar>
       </AppBar>
